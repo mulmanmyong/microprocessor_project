@@ -1,38 +1,37 @@
-#header files
-ADC.c
-ADC.h
-clocks_and_modes.c
-clocks_and_modes.h
-lcd1602A.c
-lcd1602A.h
-math.h
+# macOS
+.DS_Store
 
+# Editor settings
+.vscode/
 
-#test code
-project.c
-up_down_counterdd.c
-no_duplicated_randarr.c
-about_keypad.c
-page_select.c
-game_test
+# Build outputs
+*.o
+*.elf
+*.hex
+*.map
+*.bin
+*.axf
+*.srec
+*.lst
+*.d
+Debug/
+Release/
+build/
 
-project_switch_mode.c
-almost_finish.c
-
-duple
-
-timerinterrupt.c
-real_almost_finish.c
+# Local scratch and old test files
+trash/
+duple/
+game_test/
+rand/
 project.c
 project1.c
 project2.c
 project3_indent.c
-
-
-
-
-#1. random
-random_test.c
-rand
-
-trash/
+project_switch_mode.c
+almost_finish.c
+real_almost_finish.c
+up_down_counterdd.c
+no_duplicated_randarr.c
+about_keypad.c
+page_select.c
+timerinterrupt.c
